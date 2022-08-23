@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  error.include-message: always
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/brunoyam
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
